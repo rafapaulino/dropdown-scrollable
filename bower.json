@@ -1,0 +1,24 @@
+{
+  "name": "dropdown-scrollable",
+  "homepage": "https://github.com/rafapaulino/dropdown-scrollable",
+  "description": "Dropdown com scroll",
+  "main": "",
+  "license": "MIT",
+  "keywords": [
+    "news"
+  ],
+  "authors": [
+    "Rafael Paulino"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.3"
+  }
+}

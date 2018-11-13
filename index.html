@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="Rafael Paulino">
+<title>Dropdown Scrollable  - Bootstrap 4</title>
+
+<!-- Bootstrap core CSS -->
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/dropdown.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <br><br>
+      
+            <!-- dropdown -->
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Selecione um Tema
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu" role="menu">
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                    
+                    <a class="dropdown-item" href="#">Tema 01</a>
+                    <a class="dropdown-item" href="#">Tema 02</a>
+                    <a class="dropdown-item" href="#">Tema 03</a>
+                    <a class="dropdown-item" href="#">Tema 04</a>
+                    <a class="dropdown-item" href="#">Tema 05</a>
+                    <a class="dropdown-item" href="#">Tema 06</a>
+                    <a class="dropdown-item" href="#">Tema 07</a>
+                    <a class="dropdown-item" href="#">Tema 08</a>
+                    <a class="dropdown-item" href="#">Tema 09</a>
+                    <a class="dropdown-item" href="#">Tema 10</a>
+                    <a class="dropdown-item" href="#">Tema 11</a>
+                    <a class="dropdown-item" href="#">Tema 12</a>
+                </div>
+            </div>
+            <!-- /dropdown -->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <br><br>
+
+            <!-- dropdown -->
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Selecione um Tema
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu" role="menu">
+                    <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                    
+                    <a class="dropdown-item" href="#">Tema 01</a>
+                    <a class="dropdown-item" href="#">Tema 02</a>
+                    <a class="dropdown-item" href="#">Tema 03</a>
+                    <a class="dropdown-item" href="#">Tema 04</a>
+                    <a class="dropdown-item" href="#">Tema 05</a>
+                    <a class="dropdown-item" href="#">Tema 06</a>
+                    <a class="dropdown-item" href="#">Tema 07</a>
+                    <a class="dropdown-item" href="#">Tema 08</a>
+                    <a class="dropdown-item" href="#">Tema 09</a>
+                    <a class="dropdown-item" href="#">Tema 10</a>
+                    <a class="dropdown-item" href="#">Tema 11</a>
+                    <a class="dropdown-item" href="#">Tema 12</a>
+                </div>
+            </div>
+            <!-- /dropdown -->
+        </div>
+    </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/dropdown.js"></script>
+<script>
+$( window ).on("load", function() {
+    $('.dropdown').dropdownScrollable();
+});
+</script>
+</body>
+</html>
